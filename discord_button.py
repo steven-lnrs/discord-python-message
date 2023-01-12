@@ -1,4 +1,5 @@
 #this repo is still in development/the creator is kinda lazy
+#made by unusually_calm#8486
 import requests
 #Please place your webhook here
 webhookurl = ''
