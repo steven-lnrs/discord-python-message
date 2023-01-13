@@ -3,13 +3,14 @@
 import requests
 #Please place your webhook here
 webhookurl = ''
+bot_name = input("what do you want to name the bot?\n")
 
 message = input("what would you like to send to the discord?\n")
 #how to send it
 data = {
     "content" : message,
 
-    "username" : "python test"
+    "username" : bot_name
 }
 
 result = requests.post(webhookurl, json = data)
