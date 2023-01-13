@@ -14,7 +14,7 @@ data = {
 }
 
 result = requests.post(webhookurl, json = data)
-#check for error (shouldn't be any)
+#check for error (shouldn't be any unless the discord webhook is invalid)
 try:
     result.raise_for_status()
 except requests.exceptions.HTTPError as err:
