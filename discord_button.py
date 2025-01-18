@@ -1,9 +1,8 @@
-#this repo is still in development/the creator is lazy
+
 import requests
 import time
 import os
 os.system('cls')
-print("made by unusually_calm")
 time.sleep(3)
 webhookurl = input('what webhook would you like to use?\n')
 time.sleep(1)
